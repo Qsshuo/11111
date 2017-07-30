@@ -1,26 +1,40 @@
 //
-//  QSFoodDeatilViewController.m
+//  QSBaseViewController.m
 //  QSWaiMaiTakeaway
 //
 //  Created by 钱烁 on 17/7/30.
 //  Copyright © 2017年 钱烁. All rights reserved.
 //
-//食物详情
 
+#import "QSBaseViewController.h"
+#import "AFNetworking.h"
+#import "Masonry.h"
+#import "UIImageView+WebCache.h"
 
-#import "QSFoodDeatilViewController.h"
-
-@interface QSFoodDeatilViewController ()
+@interface QSBaseViewController ()
 
 @end
 
-@implementation QSFoodDeatilViewController
+@implementation QSBaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor greenColor];
-    self.navItem.title = @"2222";
+    UINavigationBar *navBar = [[UINavigationBar alloc] init];
+    [self.view addSubview:navBar];
+    [navBar mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.top.right.offset(0);
+        make.height.offset(64);
+    }];
+    
+    UINavigationItem *navItem = [[UINavigationItem alloc] init];
+    [navBar setItems:@[navItem]];
+    
+    _navBar = navBar;
+    _navItem = navItem;
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

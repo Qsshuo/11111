@@ -1,26 +1,23 @@
 //
-//  QSFoodDeatilViewController.m
+//  QSNavigationController.m
 //  QSWaiMaiTakeaway
 //
 //  Created by 钱烁 on 17/7/30.
 //  Copyright © 2017年 钱烁. All rights reserved.
 //
-//食物详情
 
+#import "QSNavigationController.h"
 
-#import "QSFoodDeatilViewController.h"
-
-@interface QSFoodDeatilViewController ()
+@interface QSNavigationController ()
 
 @end
 
-@implementation QSFoodDeatilViewController
+@implementation QSNavigationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor greenColor];
-    self.navItem.title = @"2222";
+    self.navigationBar.hidden = YES;
 }
 
 - (void)didReceiveMemoryWarning {

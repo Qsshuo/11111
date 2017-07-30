@@ -6,8 +6,8 @@
 //  Copyright © 2017年 钱烁. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "QSBaseViewController.h"
 
-@interface QSSnopViewController : UIViewController
+@interface QSSnopViewController : QSBaseViewController
 
 @end
