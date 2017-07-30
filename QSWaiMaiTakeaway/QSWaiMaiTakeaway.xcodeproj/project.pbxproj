@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		CDF7239B1F2E111500B8F4D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF7239A1F2E111500B8F4D7 /* main.m */; };
-		CDF7239E1F2E111500B8F4D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF7239D1F2E111500B8F4D7 /* AppDelegate.m */; };
-		CDF723A11F2E111500B8F4D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF723A01F2E111500B8F4D7 /* ViewController.m */; };
-		CDF723A41F2E111500B8F4D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF723A21F2E111500B8F4D7 /* Main.storyboard */; };
 		CDF723A61F2E111500B8F4D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF723A51F2E111500B8F4D7 /* Assets.xcassets */; };
 		CDF723A91F2E111500B8F4D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF723A71F2E111500B8F4D7 /* LaunchScreen.storyboard */; };
 		CDF723B41F2E111600B8F4D7 /* QSWaiMaiTakeawayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF723B31F2E111600B8F4D7 /* QSWaiMaiTakeawayTests.m */; };
 		CDF723BF1F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF723BE1F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests.m */; };
+		CDF723D41F2E144000B8F4D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF723CE1F2E144000B8F4D7 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +35,6 @@
 /* Begin PBXFileReference section */
 		CDF723961F2E111500B8F4D7 /* QSWaiMaiTakeaway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSWaiMaiTakeaway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF7239A1F2E111500B8F4D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CDF7239C1F2E111500B8F4D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CDF7239D1F2E111500B8F4D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CDF7239F1F2E111500B8F4D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CDF723A01F2E111500B8F4D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CDF723A31F2E111500B8F4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDF723A51F2E111500B8F4D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDF723A81F2E111500B8F4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDF723AA1F2E111500B8F4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +44,8 @@
 		CDF723BA1F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSWaiMaiTakeawayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF723BE1F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSWaiMaiTakeawayUITests.m; sourceTree = "<group>"; };
 		CDF723C01F2E111600B8F4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF723CD1F2E144000B8F4D7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDF723CE1F2E144000B8F4D7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +96,10 @@
 		CDF723981F2E111500B8F4D7 /* QSWaiMaiTakeaway */ = {
 			isa = PBXGroup;
 			children = (
-				CDF7239C1F2E111500B8F4D7 /* AppDelegate.h */,
-				CDF7239D1F2E111500B8F4D7 /* AppDelegate.m */,
-				CDF7239F1F2E111500B8F4D7 /* ViewController.h */,
-				CDF723A01F2E111500B8F4D7 /* ViewController.m */,
-				CDF723A21F2E111500B8F4D7 /* Main.storyboard */,
+				CDF723CC1F2E144000B8F4D7 /* Others */,
+				CDF723CF1F2E144000B8F4D7 /* Lib */,
+				CDF723D01F2E144000B8F4D7 /* Common */,
+				CDF723D11F2E144000B8F4D7 /* Classes */,
 				CDF723A51F2E111500B8F4D7 /* Assets.xcassets */,
 				CDF723A71F2E111500B8F4D7 /* LaunchScreen.storyboard */,
 				CDF723AA1F2E111500B8F4D7 /* Info.plist */,
@@ -138,6 +132,52 @@
 				CDF723C01F2E111600B8F4D7 /* Info.plist */,
 			);
 			path = QSWaiMaiTakeawayUITests;
+			sourceTree = "<group>";
+		};
+		CDF723CC1F2E144000B8F4D7 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				CDF723CD1F2E144000B8F4D7 /* AppDelegate.h */,
+				CDF723CE1F2E144000B8F4D7 /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		CDF723CF1F2E144000B8F4D7 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		CDF723D01F2E144000B8F4D7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CDF723D11F2E144000B8F4D7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CDF723D21F2E144000B8F4D7 /* foodDeatil */,
+				CDF723D31F2E144000B8F4D7 /* snop */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CDF723D21F2E144000B8F4D7 /* foodDeatil */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = foodDeatil;
+			sourceTree = "<group>";
+		};
+		CDF723D31F2E144000B8F4D7 /* snop */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = snop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +288,6 @@
 			files = (
 				CDF723A91F2E111500B8F4D7 /* LaunchScreen.storyboard in Resources */,
 				CDF723A61F2E111500B8F4D7 /* Assets.xcassets in Resources */,
-				CDF723A41F2E111500B8F4D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF723A11F2E111500B8F4D7 /* ViewController.m in Sources */,
-				CDF7239E1F2E111500B8F4D7 /* AppDelegate.m in Sources */,
+				CDF723D41F2E144000B8F4D7 /* AppDelegate.m in Sources */,
 				CDF7239B1F2E111500B8F4D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CDF723A21F2E111500B8F4D7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDF723A31F2E111500B8F4D7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CDF723A71F2E111500B8F4D7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -505,6 +535,7 @@
 				CDF723C51F2E111600B8F4D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDF723C61F2E111600B8F4D7 /* Build configuration list for PBXNativeTarget "QSWaiMaiTakeawayTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +544,7 @@
 				CDF723C81F2E111600B8F4D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDF723C91F2E111600B8F4D7 /* Build configuration list for PBXNativeTarget "QSWaiMaiTakeawayUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +553,7 @@
 				CDF723CB1F2E111600B8F4D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
