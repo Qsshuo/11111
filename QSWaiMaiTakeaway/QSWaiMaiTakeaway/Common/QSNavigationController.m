@@ -7,6 +7,7 @@
 //
 
 #import "QSNavigationController.h"
+#import "QSBaseViewController.h"
 
 @interface QSNavigationController ()
 
@@ -20,10 +21,28 @@
     self.navigationBar.hidden = YES;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+
+- (void)pushViewController:(QSBaseViewController *)viewController animated:(BOOL)animated{
+    [super pushViewController:viewController animated:YES];
+    if (self.childViewControllers.count > 1) {
+        
+        
+        // 给导航条设置左边按钮
+        viewController.navItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"btn_backItem"] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
+        
+        
+    }
+    
 }
+
+
+// 点击左边按钮返回
+- (void)back {
+    [self popViewControllerAnimated:YES];
+}
+
+
 
 /*
 #pragma mark - Navigation
