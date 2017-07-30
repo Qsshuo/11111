@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "QSSnopViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -19,6 +21,13 @@
     
     //创建window
     _window = [[UIWindow alloc] init];
+    //设置根控制器
+    QSSnopViewController *vc = [[QSSnopViewController alloc] init];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    _window.rootViewController =nav;
+    //让window成为主窗口并可视
+    [_window makeKeyAndVisible];
     return YES;
 }
 

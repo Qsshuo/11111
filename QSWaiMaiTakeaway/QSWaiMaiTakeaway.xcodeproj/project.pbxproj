@@ -13,6 +13,8 @@
 		CDF723B41F2E111600B8F4D7 /* QSWaiMaiTakeawayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF723B31F2E111600B8F4D7 /* QSWaiMaiTakeawayTests.m */; };
 		CDF723BF1F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF723BE1F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests.m */; };
 		CDF723D41F2E144000B8F4D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF723CE1F2E144000B8F4D7 /* AppDelegate.m */; };
+		CDF723D71F2E14EF00B8F4D7 /* QSFoodDeatilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF723D61F2E14EF00B8F4D7 /* QSFoodDeatilViewController.m */; };
+		CDF723DA1F2E150900B8F4D7 /* QSSnopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF723D91F2E150900B8F4D7 /* QSSnopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,10 @@
 		CDF723C01F2E111600B8F4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDF723CD1F2E144000B8F4D7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDF723CE1F2E144000B8F4D7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDF723D51F2E14EF00B8F4D7 /* QSFoodDeatilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSFoodDeatilViewController.h; sourceTree = "<group>"; };
+		CDF723D61F2E14EF00B8F4D7 /* QSFoodDeatilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSFoodDeatilViewController.m; sourceTree = "<group>"; };
+		CDF723D81F2E150900B8F4D7 /* QSSnopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSSnopViewController.h; sourceTree = "<group>"; };
+		CDF723D91F2E150900B8F4D7 /* QSSnopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSSnopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +175,8 @@
 		CDF723D21F2E144000B8F4D7 /* foodDeatil */ = {
 			isa = PBXGroup;
 			children = (
+				CDF723D51F2E14EF00B8F4D7 /* QSFoodDeatilViewController.h */,
+				CDF723D61F2E14EF00B8F4D7 /* QSFoodDeatilViewController.m */,
 			);
 			path = foodDeatil;
 			sourceTree = "<group>";
@@ -176,6 +184,8 @@
 		CDF723D31F2E144000B8F4D7 /* snop */ = {
 			isa = PBXGroup;
 			children = (
+				CDF723D81F2E150900B8F4D7 /* QSSnopViewController.h */,
+				CDF723D91F2E150900B8F4D7 /* QSSnopViewController.m */,
 			);
 			path = snop;
 			sourceTree = "<group>";
@@ -312,6 +322,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF723DA1F2E150900B8F4D7 /* QSSnopViewController.m in Sources */,
+				CDF723D71F2E14EF00B8F4D7 /* QSFoodDeatilViewController.m in Sources */,
 				CDF723D41F2E144000B8F4D7 /* AppDelegate.m in Sources */,
 				CDF7239B1F2E111500B8F4D7 /* main.m in Sources */,
 			);
