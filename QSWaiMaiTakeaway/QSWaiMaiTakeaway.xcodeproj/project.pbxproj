@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDF7239B1F2E111500B8F4D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF7239A1F2E111500B8F4D7 /* main.m */; };
+		CDF7239E1F2E111500B8F4D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF7239D1F2E111500B8F4D7 /* AppDelegate.m */; };
+		CDF723A11F2E111500B8F4D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF723A01F2E111500B8F4D7 /* ViewController.m */; };
+		CDF723A41F2E111500B8F4D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF723A21F2E111500B8F4D7 /* Main.storyboard */; };
+		CDF723A61F2E111500B8F4D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF723A51F2E111500B8F4D7 /* Assets.xcassets */; };
+		CDF723A91F2E111500B8F4D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF723A71F2E111500B8F4D7 /* LaunchScreen.storyboard */; };
+		CDF723B41F2E111600B8F4D7 /* QSWaiMaiTakeawayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF723B31F2E111600B8F4D7 /* QSWaiMaiTakeawayTests.m */; };
+		CDF723BF1F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF723BE1F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDF723B01F2E111600B8F4D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF7238E1F2E111500B8F4D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF723951F2E111500B8F4D7;
+			remoteInfo = QSWaiMaiTakeaway;
+		};
+		CDF723BB1F2E111600B8F4D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF7238E1F2E111500B8F4D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF723951F2E111500B8F4D7;
+			remoteInfo = QSWaiMaiTakeaway;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDF723961F2E111500B8F4D7 /* QSWaiMaiTakeaway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSWaiMaiTakeaway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF7239A1F2E111500B8F4D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDF7239C1F2E111500B8F4D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDF7239D1F2E111500B8F4D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDF7239F1F2E111500B8F4D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDF723A01F2E111500B8F4D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDF723A31F2E111500B8F4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDF723A51F2E111500B8F4D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDF723A81F2E111500B8F4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDF723AA1F2E111500B8F4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF723AF1F2E111600B8F4D7 /* QSWaiMaiTakeawayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSWaiMaiTakeawayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF723B31F2E111600B8F4D7 /* QSWaiMaiTakeawayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSWaiMaiTakeawayTests.m; sourceTree = "<group>"; };
+		CDF723B51F2E111600B8F4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF723BA1F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSWaiMaiTakeawayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF723BE1F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSWaiMaiTakeawayUITests.m; sourceTree = "<group>"; };
+		CDF723C01F2E111600B8F4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF723931F2E111500B8F4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF723AC1F2E111600B8F4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF723B71F2E111600B8F4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDF7238D1F2E111500B8F4D7 = {
+			isa = PBXGroup;
+			children = (
+				CDF723981F2E111500B8F4D7 /* QSWaiMaiTakeaway */,
+				CDF723B21F2E111600B8F4D7 /* QSWaiMaiTakeawayTests */,
+				CDF723BD1F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests */,
+				CDF723971F2E111500B8F4D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDF723971F2E111500B8F4D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF723961F2E111500B8F4D7 /* QSWaiMaiTakeaway.app */,
+				CDF723AF1F2E111600B8F4D7 /* QSWaiMaiTakeawayTests.xctest */,
+				CDF723BA1F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF723981F2E111500B8F4D7 /* QSWaiMaiTakeaway */ = {
+			isa = PBXGroup;
+			children = (
+				CDF7239C1F2E111500B8F4D7 /* AppDelegate.h */,
+				CDF7239D1F2E111500B8F4D7 /* AppDelegate.m */,
+				CDF7239F1F2E111500B8F4D7 /* ViewController.h */,
+				CDF723A01F2E111500B8F4D7 /* ViewController.m */,
+				CDF723A21F2E111500B8F4D7 /* Main.storyboard */,
+				CDF723A51F2E111500B8F4D7 /* Assets.xcassets */,
+				CDF723A71F2E111500B8F4D7 /* LaunchScreen.storyboard */,
+				CDF723AA1F2E111500B8F4D7 /* Info.plist */,
+				CDF723991F2E111500B8F4D7 /* Supporting Files */,
+			);
+			path = QSWaiMaiTakeaway;
+			sourceTree = "<group>";
+		};
+		CDF723991F2E111500B8F4D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDF7239A1F2E111500B8F4D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDF723B21F2E111600B8F4D7 /* QSWaiMaiTakeawayTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF723B31F2E111600B8F4D7 /* QSWaiMaiTakeawayTests.m */,
+				CDF723B51F2E111600B8F4D7 /* Info.plist */,
+			);
+			path = QSWaiMaiTakeawayTests;
+			sourceTree = "<group>";
+		};
+		CDF723BD1F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF723BE1F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests.m */,
+				CDF723C01F2E111600B8F4D7 /* Info.plist */,
+			);
+			path = QSWaiMaiTakeawayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDF723951F2E111500B8F4D7 /* QSWaiMaiTakeaway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF723C31F2E111600B8F4D7 /* Build configuration list for PBXNativeTarget "QSWaiMaiTakeaway" */;
+			buildPhases = (
+				CDF723921F2E111500B8F4D7 /* Sources */,
+				CDF723931F2E111500B8F4D7 /* Frameworks */,
+				CDF723941F2E111500B8F4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QSWaiMaiTakeaway;
+			productName = QSWaiMaiTakeaway;
+			productReference = CDF723961F2E111500B8F4D7 /* QSWaiMaiTakeaway.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDF723AE1F2E111600B8F4D7 /* QSWaiMaiTakeawayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF723C61F2E111600B8F4D7 /* Build configuration list for PBXNativeTarget "QSWaiMaiTakeawayTests" */;
+			buildPhases = (
+				CDF723AB1F2E111600B8F4D7 /* Sources */,
+				CDF723AC1F2E111600B8F4D7 /* Frameworks */,
+				CDF723AD1F2E111600B8F4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF723B11F2E111600B8F4D7 /* PBXTargetDependency */,
+			);
+			name = QSWaiMaiTakeawayTests;
+			productName = QSWaiMaiTakeawayTests;
+			productReference = CDF723AF1F2E111600B8F4D7 /* QSWaiMaiTakeawayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDF723B91F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF723C91F2E111600B8F4D7 /* Build configuration list for PBXNativeTarget "QSWaiMaiTakeawayUITests" */;
+			buildPhases = (
+				CDF723B61F2E111600B8F4D7 /* Sources */,
+				CDF723B71F2E111600B8F4D7 /* Frameworks */,
+				CDF723B81F2E111600B8F4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF723BC1F2E111600B8F4D7 /* PBXTargetDependency */,
+			);
+			name = QSWaiMaiTakeawayUITests;
+			productName = QSWaiMaiTakeawayUITests;
+			productReference = CDF723BA1F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDF7238E1F2E111500B8F4D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "钱烁";
+				TargetAttributes = {
+					CDF723951F2E111500B8F4D7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CDF723AE1F2E111600B8F4D7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDF723951F2E111500B8F4D7;
+					};
+					CDF723B91F2E111600B8F4D7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDF723951F2E111500B8F4D7;
+					};
+				};
+			};
+			buildConfigurationList = CDF723911F2E111500B8F4D7 /* Build configuration list for PBXProject "QSWaiMaiTakeaway" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDF7238D1F2E111500B8F4D7;
+			productRefGroup = CDF723971F2E111500B8F4D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDF723951F2E111500B8F4D7 /* QSWaiMaiTakeaway */,
+				CDF723AE1F2E111600B8F4D7 /* QSWaiMaiTakeawayTests */,
+				CDF723B91F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDF723941F2E111500B8F4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF723A91F2E111500B8F4D7 /* LaunchScreen.storyboard in Resources */,
+				CDF723A61F2E111500B8F4D7 /* Assets.xcassets in Resources */,
+				CDF723A41F2E111500B8F4D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF723AD1F2E111600B8F4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF723B81F2E111600B8F4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDF723921F2E111500B8F4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF723A11F2E111500B8F4D7 /* ViewController.m in Sources */,
+				CDF7239E1F2E111500B8F4D7 /* AppDelegate.m in Sources */,
+				CDF7239B1F2E111500B8F4D7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF723AB1F2E111600B8F4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF723B41F2E111600B8F4D7 /* QSWaiMaiTakeawayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF723B61F2E111600B8F4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF723BF1F2E111600B8F4D7 /* QSWaiMaiTakeawayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDF723B11F2E111600B8F4D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF723951F2E111500B8F4D7 /* QSWaiMaiTakeaway */;
+			targetProxy = CDF723B01F2E111600B8F4D7 /* PBXContainerItemProxy */;
+		};
+		CDF723BC1F2E111600B8F4D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF723951F2E111500B8F4D7 /* QSWaiMaiTakeaway */;
+			targetProxy = CDF723BB1F2E111600B8F4D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDF723A21F2E111500B8F4D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDF723A31F2E111500B8F4D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDF723A71F2E111500B8F4D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDF723A81F2E111500B8F4D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDF723C11F2E111600B8F4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDF723C21F2E111600B8F4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDF723C41F2E111600B8F4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QSWaiMaiTakeaway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qs1993.111.QSWaiMaiTakeaway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDF723C51F2E111600B8F4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QSWaiMaiTakeaway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qs1993.111.QSWaiMaiTakeaway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDF723C71F2E111600B8F4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QSWaiMaiTakeawayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qs1993.111.QSWaiMaiTakeawayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QSWaiMaiTakeaway.app/QSWaiMaiTakeaway";
+			};
+			name = Debug;
+		};
+		CDF723C81F2E111600B8F4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QSWaiMaiTakeawayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qs1993.111.QSWaiMaiTakeawayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QSWaiMaiTakeaway.app/QSWaiMaiTakeaway";
+			};
+			name = Release;
+		};
+		CDF723CA1F2E111600B8F4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QSWaiMaiTakeawayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qs1993.111.QSWaiMaiTakeawayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QSWaiMaiTakeaway;
+			};
+			name = Debug;
+		};
+		CDF723CB1F2E111600B8F4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QSWaiMaiTakeawayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qs1993.111.QSWaiMaiTakeawayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QSWaiMaiTakeaway;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDF723911F2E111500B8F4D7 /* Build configuration list for PBXProject "QSWaiMaiTakeaway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF723C11F2E111600B8F4D7 /* Debug */,
+				CDF723C21F2E111600B8F4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF723C31F2E111600B8F4D7 /* Build configuration list for PBXNativeTarget "QSWaiMaiTakeaway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF723C41F2E111600B8F4D7 /* Debug */,
+				CDF723C51F2E111600B8F4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDF723C61F2E111600B8F4D7 /* Build configuration list for PBXNativeTarget "QSWaiMaiTakeawayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF723C71F2E111600B8F4D7 /* Debug */,
+				CDF723C81F2E111600B8F4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDF723C91F2E111600B8F4D7 /* Build configuration list for PBXNativeTarget "QSWaiMaiTakeawayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF723CA1F2E111600B8F4D7 /* Debug */,
+				CDF723CB1F2E111600B8F4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDF7238E1F2E111500B8F4D7 /* Project object */;
+}
