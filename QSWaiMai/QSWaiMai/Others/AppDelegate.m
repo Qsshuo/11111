@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "QSShopViewController.h"
+#import "QSNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
+    _window = [[UIWindow alloc] init];
+    
+    QSShopViewController *shopVC = [[QSShopViewController alloc] init];
+    
+    QSNavigationController *navVC = [[QSNavigationController alloc] initWithRootViewController:shopVC];
+    
+    _window.rootViewController = navVC;
+    
+    [_window makeKeyAndVisible];
+    
     
     
     
