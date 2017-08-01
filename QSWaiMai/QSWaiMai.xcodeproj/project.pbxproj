@@ -53,6 +53,7 @@
 		CDF725301F306F5F00B8F4D7 /* QSShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF7252D1F306F5F00B8F4D7 /* QSShopViewController.m */; };
 		CDF725361F3070CE00B8F4D7 /* QSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF725351F3070CE00B8F4D7 /* QSBaseViewController.m */; };
 		CDF725391F3096B500B8F4D7 /* QSNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF725381F3096B500B8F4D7 /* QSNavigationBar.m */; };
+		CDF7253C1F309BB900B8F4D7 /* NSObject+LineFormula.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF7253B1F309BB900B8F4D7 /* NSObject+LineFormula.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +175,9 @@
 		CDF725351F3070CE00B8F4D7 /* QSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSBaseViewController.m; sourceTree = "<group>"; };
 		CDF725371F3096B500B8F4D7 /* QSNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSNavigationBar.h; sourceTree = "<group>"; };
 		CDF725381F3096B500B8F4D7 /* QSNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSNavigationBar.m; sourceTree = "<group>"; };
+		CDF7253A1F309BB900B8F4D7 /* NSObject+LineFormula.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LineFormula.h"; sourceTree = "<group>"; };
+		CDF7253B1F309BB900B8F4D7 /* NSObject+LineFormula.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LineFormula.m"; sourceTree = "<group>"; };
+		CDF7253D1F309D3200B8F4D7 /* Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Additions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,6 +299,9 @@
 		CDF724A11F302FCE00B8F4D7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				CDF7253A1F309BB900B8F4D7 /* NSObject+LineFormula.h */,
+				CDF7253B1F309BB900B8F4D7 /* NSObject+LineFormula.m */,
+				CDF7253D1F309D3200B8F4D7 /* Additions.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -624,6 +631,7 @@
 				CDF7250D1F3066A800B8F4D7 /* MASViewConstraint.m in Sources */,
 				CDF725061F3066A800B8F4D7 /* AFURLResponseSerialization.m in Sources */,
 				CDF725211F3066A800B8F4D7 /* UIImageView+HighlightedWebCache.m in Sources */,
+				CDF7253C1F309BB900B8F4D7 /* NSObject+LineFormula.m in Sources */,
 				CDF725101F3066A800B8F4D7 /* View+MASAdditions.m in Sources */,
 				CDF7250F1F3066A800B8F4D7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				CDF7250B1F3066A800B8F4D7 /* MASLayoutConstraint.m in Sources */,
