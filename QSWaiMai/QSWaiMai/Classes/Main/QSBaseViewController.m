@@ -19,7 +19,7 @@
     if (self) {
         
         // 为每一个继承至此类的控制器都添加一个导航条
-        UINavigationBar *navBar = [[UINavigationBar alloc] init];
+        QSNavigationBar *navBar = [[QSNavigationBar alloc] init];
         // 给导航条添加UINavigationItem
         UINavigationItem *navItem = [[UINavigationItem alloc] init];
         // 把UINavigationItem设置到导航条上'建立它和导航条控件的关系'
@@ -44,6 +44,19 @@
     
 
 }
+
+- (void)setStatusBarStyle:(UIStatusBarStyle)statusBarStyle {
+    _statusBarStyle = statusBarStyle;
+    
+    // 让设置状态栏样式的方法重新调用
+    [self setNeedsStatusBarAppearanceUpdate];
+}
+
+// 设置状态栏式
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return self.statusBarStyle;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

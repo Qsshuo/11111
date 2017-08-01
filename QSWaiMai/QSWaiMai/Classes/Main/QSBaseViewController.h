@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QSNavigationBar.h"
 
 @interface QSBaseViewController : UIViewController
 ///导航条
-@property (nonatomic,strong,readonly) UINavigationBar *navBar;
+@property (nonatomic,strong,readonly) QSNavigationBar *navBar;
 ///导航项
 @property (nonatomic,strong,readonly) UINavigationItem *navItem;
+// 状态栏样式
+@property (nonatomic, assign) UIStatusBarStyle statusBarStyle;
 
 @end

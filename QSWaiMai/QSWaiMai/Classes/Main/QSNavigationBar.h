@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface QSNavigationBar : UINavigationBar
+
 @property (nonatomic, weak) UIImageView *bgImageView;
 @end
